@@ -4,7 +4,7 @@ import PanelRight from './components/PanelRight.vue';
 import { cityProvide } from './constans';
 import PanelLeft from './components/PanelLeft.vue';
 
-const API_ENDPOINT = "http://api.weatherapi.com/v1";
+const API_ENDPOINT = "https://api.weatherapi.com/v1";
 
 let data = ref();
 let error = ref();
